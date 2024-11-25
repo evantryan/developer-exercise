@@ -13,7 +13,6 @@ class Exercise
         "marklar"
       end
     end
-    puts result
     return result
   end
 
@@ -39,7 +38,6 @@ class Exercise
   def self.even_fibonacci(nth)
     # list comprehension for sum all even numbers
     even_sum = self.fibonacci_list(nth).select { |n| n.even? }.sum
-    puts even_sum
     return even_sum
   end
 end
